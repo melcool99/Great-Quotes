@@ -6,10 +6,6 @@ import useHttp from "../../hooks/use-http";
 import { getSingleQuote } from "../../lib/api";
 import LoadingSpinner from "../UI/LoadingSpinner";
 
-const QUOTES = [
-  { id: "q1", author: "Mlc", text: "React is fun" },
-  { id: "q2", author: "Cristian", text: "Learning is hard" },
-];
 
 const QuoteDetail = () => {
   const match = useRouteMatch()
